@@ -1,23 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## GROUP <add-group-name>
 
-Things you may want to cover:
+- Member 1: Nguyễn Thị Huyền
+- Member 2: Nguyễn Thiên Đạt
 
-* Ruby version
 
-* System dependencies
+## Starting server
 
-* Configuration
+- Run on your terminal `docker-compose up`
+- Open browser at http://localhost:3000/
+- Continue your work on a new terminal tab. Leave this terminal tab open until you want to stop the server.
 
-* Database creation
+## Stop server
 
-* Database initialization
+`CTRL + C`
 
-* How to run the test suite
+### Bundle install
+Installing required libraries, you can run this command multiple time. If there is an error, let make sure this command has been executed successfully.
 
-* Services (job queues, cache servers, search engines, etc.)
+`bundle install`
 
-* Deployment instructions
+### Migrate database
 
+`rails db:migrate`
+
+## Optional
+
+### Rails console
+
+`rails c`
